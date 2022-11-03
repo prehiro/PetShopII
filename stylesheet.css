@@ -1,11 +1,35 @@
-li{
-    list-style: none;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-icon{
+    float: right;
+    color: white;
+    display: none;
+    height: 65px;
+    line-height: 65px;
 }
 
 header{
     height: 65px;
     background-color: lightskyblue;
     width: 100%;
+    top: 0;
     position: fixed;
 }
 
@@ -16,24 +40,65 @@ header{
 
 .header-left{
     float: left;
-}
-
-.header-left h2{
-    height: 50%;
-    color:whitesmoke
+    line-height: 65px;
+    color: white;
 }
 
 .header-right{
     float: right;
     height: 65px;
-    text-align: center;
 }
 
 .header-right ul{
     display: flex;
-    margin: 20px auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-right li{
-    margin: auto 10px;
+    height: 65px;
+    line-height: 65px;
+    flex: auto;
+    padding: 0px 20px;
+    color: aliceblue;
+}
+
+/* arikel */
+.artikel{
+    height: 300px;
+    padding-top: 80px;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(241, 241, 241);
+    color: rgb(90, 199, 226);
+}
+
+/* hewan */
+.hewan{
+    height: 300px;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(241, 241, 241);
+    color: rgb(90, 199, 226);
+}
+
+/* kebutuhan */
+.kebutuhan{
+    height: 300px;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(241, 241, 241);
+    color: rgb(90, 199, 226);
+}
+
+/* service */
+.service{
+    height: 300px;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(241, 241, 241);
+    color: rgb(90, 199, 226);
+}
+
+footer{
+    background-color: lightskyblue;
+    height: 65px;
+    width: 100%;
+    color: white;
 }
