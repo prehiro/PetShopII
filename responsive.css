@@ -1,5 +1,13 @@
+@media(min-width: 1001px){
+    
+}
+
 @media (max-width: 670px){
-    ul{
+    .header-right{
         display: none;
+    }
+
+    .menu-icon{
+        display: block;
     }
 }
