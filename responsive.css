@@ -1,17 +1,15 @@
-@media(min-width: 500px){
-    
-}
-
 @media (max-width: 670px){
-    header{
-        height: 100px;
-    }
-    .header-left{
-        line-height: 100px;
+
+    .container{
+        max-width: 320px;
     }
 
-    .logo{
-        font-size: 65px;
+    header{
+        height: 50px;
+    }
+
+    .header-left{
+        line-height: 50px;
     }
 
     .header-right{
@@ -19,6 +17,16 @@
     }
 
     .menu-icon::before{
+        font-size: 20px;
+        padding: 15px 0;
         display: block;
+    }
+
+    .heading{
+        height: 400px;
+    }
+
+    .heading h1{
+        font-size: 40px;
     }
 }
