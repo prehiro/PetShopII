@@ -1,13 +1,24 @@
-@media(min-width: 1001px){
+@media(min-width: 500px){
     
 }
 
 @media (max-width: 670px){
+    header{
+        height: 100px;
+    }
+    .header-left{
+        line-height: 100px;
+    }
+
+    .logo{
+        font-size: 65px;
+    }
+
     .header-right{
         display: none;
     }
 
-    .menu-icon{
+    .menu-icon::before{
         display: block;
     }
 }
