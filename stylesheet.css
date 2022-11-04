@@ -74,7 +74,7 @@ header{
 /* heading */
 .heading{
     height: 740px;
-    background-image: url(https://github.com/AdamRaf/PetShopII/blob/main/job562-nunoon-05-g.jpg);
+    background-image: url('./job562-nunoon-05-g.jpg');
     background-size: cover;
     background-position: bottom;
     text-align: center;
