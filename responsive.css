@@ -24,10 +24,14 @@
 
     .heading{
         height: 300px;
+        background-color: #E8E8E8;
+        background-size: 110%;
+        background-repeat: no-repeat;
     }
 
     .heading h1{
         padding-top: 90px;
         font-size: 35px;
+        letter-spacing: 2px;
     }
 }
