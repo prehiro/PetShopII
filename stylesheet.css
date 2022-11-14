@@ -6,7 +6,8 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Lucida Grande";
+  /* font-family: "Lucida Grande"; */
+  font-family: 'Signika', sans-serif;
 }
 
 li {
@@ -30,7 +31,7 @@ a {
 
 header{
     height: 65px;
-    background-color: rgba(65, 161, 102, 0.7);
+    background-color: rgba(39, 174, 96, 0.7);
     width: 100%;
     top: 0;
     position: fixed;
@@ -87,7 +88,7 @@ header{
     font-size: 80px;
     letter-spacing: 5px;
     font-family: 'Fredoka One';
-    color: rgb(79, 153, 112);
+    color: #27ae60;
 }
 
 /* arikel */
@@ -95,7 +96,7 @@ header{
     height: 300px;
     border-bottom: 1px solid gainsboro;
     background-color: rgb(241, 241, 241);
-    color: rgb(72, 223, 172);
+    color: #27ae60;
 }
 
 /* hewan */
@@ -103,7 +104,7 @@ header{
     height: 300px;
     border-bottom: 1px solid gainsboro;
     background-color: rgb(241, 241, 241);
-    color: rgb(72, 223, 172);
+    color: #27ae60;
 }
 
 /* kebutuhan */
@@ -111,19 +112,20 @@ header{
     height: 300px;
     border-bottom: 1px solid gainsboro;
     background-color: rgb(241, 241, 241);
-    color: rgb(72, 223, 172);
+    color: #27ae60;
 }
 
 /* service */
 .service{
-    height: 300px;
+    padding-top: 15px;
+    height: 685px;
     border-bottom: 1px solid gainsboro;
     background-color: rgb(241, 241, 241);
-    color: rgb(72, 223, 172);
+    color: #27ae60;
 }
 
 footer{
-    background-color: rgb(65, 161, 102);
+    background-color: #27ae60;
     width: 100%;
     color: white;
 }
@@ -140,3 +142,115 @@ footer{
     font-size: 12px;
     color: rgb(255, 255, 255);
 }
+
+
+/* ## SERVICES CSS START HERE ## */
+.services-heading {
+    padding-bottom: 10px;
+}
+.services-heading h1 {
+    text-align: center;
+    width: auto;
+    /* padding: 0px; */
+    margin-bottom: 0px ;
+    font-family: 'Signika', sans-serif;
+  }
+
+  .services-heading p{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+  }
+
+  .con1{
+    /* padding: 0px 15px; */
+    /* display: flex; */
+    /* justify-content:space-between; */
+    align-items: center;
+    font-family: 'Signika', sans-serif;
+
+  }
+  #a-wrapper, #b-wrapper, #c-wrapper{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .menu{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    /*margin-bottom: 15px;*/
+  }
+  
+  .text-wrapper h2{
+    font-family: 'Signika', sans-serif;
+  }
+
+  .btn-wrapper a{
+    font-family: 'Signika', sans-serif;
+  }
+
+  .left-side{
+    height: 180px;
+    width: 180px;
+    float: left;
+    /* background-color: #00C853; */
+    /* background-image: linear-gradient(45deg,#1fa2ff, #12d8fa, #a6ffcb); */
+    background-color: #08AEEA;
+    background-image: linear-gradient(45deg, #27ae60 0%, #2ecc71 100%);
+  }
+
+  .right-side{
+    float: left;
+    padding-right: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform .2s;
+    height: 180px;
+    width: 180px;
+    /* margin-right: 15px; */
+  }
+
+  .right-side:hover{
+    transform: scale(1.05);
+    /* margin-right: 15px; */
+  }
+
+  .text-wrapper{
+    padding: 35px 0px 0px 30px;
+    color: aliceblue;
+  }
+
+  .text-wrapper a{
+   font-size: 15px;
+  }
+
+  .img-wrapper img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+  .btn-wrapper  {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #2980b9;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.btn-wrapper a{
+    text-decoration: none;
+    color:rgb(236, 240, 241);
+}
+
+.btn-wrapper:hover {
+    background: #3498db;
+  }
+/* ## SERVICES CSS END HERE ## */
