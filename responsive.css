@@ -1,3 +1,4 @@
+/* ## MOBILE ## */
 @media (max-width: 670px){
 
     .container{
@@ -33,5 +34,23 @@
         padding-top: 90px;
         font-size: 35px;
         letter-spacing: 2px;
+    }
+
+    .service{
+        padding-bottom: 800px;
+        position: relative;
+    }
+    #a-wrapper,#b-wrapper, #c-wrapper {
+        padding-left: 9rem;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .service{
+        height: 1080px;
+        position: relative;
+    }
+    #a-wrapper,#b-wrapper, #c-wrapper {
+        padding-left: 7rem;
     }
 }
